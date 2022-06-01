@@ -1,6 +1,6 @@
-#Bakalaura darbs - Kristers Rutkis 3ITB -  
-Botānisko vārdnīcu digitalizācija un datu integrācija IMDS sistēmā, izmantojot attēlu apstrādes algoritmus un mašīnmacīšanās algoritmus
-Digitization of botanical dictionaries and data integration in IMDS system using image processing algorithms and machine learning algorithms
+#Bakalaura darbs - Kristers Rutkis 3ITB -  #
+##Botānisko vārdnīcu digitalizācija un datu integrācija IMDS sistēmā, izmantojot attēlu apstrādes algoritmus un mašīnmacīšanās algoritmus##
+##Digitization of botanical dictionaries and data integration in IMDS system using image processing algorithms and machine learning algorithms##
 
 Bakalaura darba laikā izstrādātas programmas kods pieejams gan .rar , gan .zip formātos - tādējādi izvairoties no maksimālā atļauto failu skaita limita GitHub vidē.
 Lai atarhivēt programmas kodu, nepieciešams to lejuplādēt no GitHub repozitorija. Atvērt to ar WinRar vai 7zip piedāvāto risinājumu. Atarhivēt Jums ērtā vietā.
@@ -8,11 +8,11 @@ Pēc arhīva izvlikšanas nepieciešams izvilkt arī to saturošo images arhīvu
 Pēc abu arhīvu atarhivēšanas tos drīkst izdzēst.
 Pēc arhīva izdzēšanas nepieciešams iegūto images folderi dublēt arī OCR/KerasOCR , OCR/TesseractOCR un OCR/EasyOCR folderos
 
-Izmantotā vide :
+**Izmantotā vide :**
 Python
 Anaconda Command Prompt
 
-Nepieciešamās bilbiotēkas :
+**Nepieciešamās bilbiotēkas :**
   tesserocr (conda install -c simonflueckiger tesserocr)
   langdetect(pip install langdetect)
   csv(ietverts automātiski)
@@ -43,12 +43,12 @@ Nepieciešamās bilbiotēkas :
   pandas (automātiski ietverts)
   itertools (automātiski ietverts)
   
-  Anaconda vides uzstādīšana :
-  https://www.anaconda.com/products/distribution#windows
+  **Anaconda vides uzstādīšana :**
+  *https://www.anaconda.com/products/distribution#windows*
   Izmantojot Anaconda tīmekļa vietni lejuplādēt Anaconda Python 3.9 versiju
   Veikt instalāciju pēc sniegtajām norādēm instalācijas failā
   Pēc instalācijas veikšanas atvērt Anaconda command prompt un izveidot jaunu vidi pamatojoties uz tālāk esošās tīmekļavientes pamācību
-  https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+  *https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html*
   Pēc vides izveidošanas, aktivizēt vidi ar komandu "activate videsNosaukums"
   Lai pārliecinātos par vides aktivizēšanu - vides nosaukumam jārādas komandrindas pašā sākumā - iekavās
   Tālāk jāuzstāda nepieciešamās bibliotēkas programmas izpildei - to iespējams izdarīt rakstot komandrindu ailēs komandas, kuras norādītas aiz bilbiotēkām iekavās.
@@ -56,7 +56,7 @@ Nepieciešamās bilbiotēkas :
 
   Dažreiz lajuplādējot un uzstādot bibliotēkas tās savstarpēji nesadarbojas un izdzēš viena otru, tad nepieciešams vēlreiz palaist attiecīgās bilbiotēkas lejuplādi un uzstādīšanu
   
-  Bakalaura darba nodevuma struktūra : 
+  **Bakalaura darba nodevuma struktūra :** 
       Katrs no atsevišķiem posmiem ir sadalīts daļās  - apakšdirektorijās. Piemēram, OCR daļa ir zem OCR direktorijas u.t.t.
       Ir iespējams palaist, apskatīt kodu katram no posmiem atsevišķi, vai darbināt kopējo programmas versiju (v1-3folder.py)
       
