@@ -11,47 +11,47 @@ Pēc arhīva izdzēšanas nepieciešams iegūto images folderi dublēt arī OCR/
 Python
 Anaconda Command Prompt
 
-#### **Nepieciešamās bilbiotēkas **
-  tesserocr (conda install -c simonflueckiger tesserocr)
-  langdetect(pip install langdetect)
-  csv(ietverts automātiski)
-  spacy.language(ietverts spacy.langdetect)
-  spacy.langdetect(pip install spacy_langdetect un  python -m spacy download en_core_web_sm)
-  spacy (pip install spacy)
-  lingua (pip install linuga-language-detector)
-  easyocr (pip install easyocr)
-  glob (automātiski ietverts)
-  keras_ocr(pip install keras_ocr)
-  keras (pip install keras)
-  tensorflow (pip install tensorflow)
-  matplotlib.pyplot (automātiski ietverts)
-  PIL (automātiski ietverts)
-  numpy (automātiski ietverts)
-  matplotlib (pip install matplotlib)
-  matplotlib.font_manager
-  re (automātiski ietverts)
-  os (automātiski ietverts)
-  requests (pip install requests)
-  urllib.parse (automātiski ietverts)
-  bs4 (pip install bs4)
-  fitz (pip install pymupdf)
-  ntpath (automātiski ietverts)
-  pathlib (automātiski ietverts)
-  xlwings (pip install xlwings)
-  openpyxl (pip install openpyxl)
-  pandas (automātiski ietverts)
-  itertools (automātiski ietverts)
+  #### **Nepieciešamās bilbiotēkas **
+    tesserocr (conda install -c simonflueckiger tesserocr)
+    langdetect(pip install langdetect)
+    csv(ietverts automātiski)
+    spacy.language(ietverts spacy.langdetect)
+    spacy.langdetect(pip install spacy_langdetect un  python -m spacy download en_core_web_sm)
+    spacy (pip install spacy)
+    lingua (pip install linuga-language-detector)
+    easyocr (pip install easyocr)
+    glob (automātiski ietverts)
+    keras_ocr(pip install keras_ocr)
+    keras (pip install keras)
+    tensorflow (pip install tensorflow)
+    matplotlib.pyplot (automātiski ietverts)
+    PIL (automātiski ietverts)
+    numpy (automātiski ietverts)
+    matplotlib (pip install matplotlib)
+    matplotlib.font_manager
+    re (automātiski ietverts)
+    os (automātiski ietverts)
+    requests (pip install requests)
+    urllib.parse (automātiski ietverts)
+    bs4 (pip install bs4)
+    fitz (pip install pymupdf)
+    ntpath (automātiski ietverts)
+    pathlib (automātiski ietverts)
+    xlwings (pip install xlwings)
+    openpyxl (pip install openpyxl)
+    pandas (automātiski ietverts)
+    itertools (automātiski ietverts)
   
   #### **Anaconda vides uzstādīšana :**
-  *https://www.anaconda.com/products/distribution#windows*
-  Izmantojot Anaconda tīmekļa vietni lejuplādēt Anaconda Python 3.9 versiju
-  Veikt instalāciju pēc sniegtajām norādēm instalācijas failā
-  Pēc instalācijas veikšanas atvērt Anaconda command prompt un izveidot jaunu vidi pamatojoties uz tālāk esošās tīmekļavientes pamācību
-  *https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html*
-  Pēc vides izveidošanas, aktivizēt vidi ar komandu "activate videsNosaukums"
-  Lai pārliecinātos par vides aktivizēšanu - vides nosaukumam jārādas komandrindas pašā sākumā - iekavās
-  Tālāk jāuzstāda nepieciešamās bibliotēkas programmas izpildei - to iespējams izdarīt rakstot komandrindu ailēs komandas, kuras norādītas aiz bilbiotēkām iekavās.
-  Kopējais bilbiotēku apjoms : apmēram 2.5 - 3.0 GB
+    *https://www.anaconda.com/products/distribution#windows*
+    Izmantojot Anaconda tīmekļa vietni lejuplādēt Anaconda Python 3.9 versiju
+    Veikt instalāciju pēc sniegtajām norādēm instalācijas failā
+    Pēc instalācijas veikšanas atvērt Anaconda command prompt un izveidot jaunu vidi pamatojoties uz tālāk esošās tīmekļavientes pamācību
+    *https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html*
+    Pēc vides izveidošanas, aktivizēt vidi ar komandu "activate videsNosaukums"
+    Lai pārliecinātos par vides aktivizēšanu - vides nosaukumam jārādas komandrindas pašā sākumā - iekavās
+    Tālāk jāuzstāda nepieciešamās bibliotēkas programmas izpildei - to iespējams izdarīt rakstot komandrindu ailēs komandas, kuras norādītas aiz bilbiotēkām iekavās.
+    Kopējais bilbiotēku apjoms : apmēram 2.5 - 3.0 GB
 
   Dažreiz lajuplādējot un uzstādot bibliotēkas tās savstarpēji nesadarbojas un izdzēš viena otru, tad nepieciešams vēlreiz palaist attiecīgās bilbiotēkas lejuplādi un uzstādīšanu
   
