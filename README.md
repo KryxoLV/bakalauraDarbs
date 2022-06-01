@@ -7,11 +7,11 @@ Pēc arhīva izvlikšanas nepieciešams izvilkt arī to saturošo images arhīvu
 Pēc abu arhīvu atarhivēšanas tos drīkst izdzēst.
 Pēc arhīva izdzēšanas nepieciešams iegūto images folderi dublēt arī OCR/KerasOCR , OCR/TesseractOCR un OCR/EasyOCR folderos
 
-**Izmantotā vide :**
+#### **Izmantotā vide **
 Python
 Anaconda Command Prompt
 
-**Nepieciešamās bilbiotēkas :**
+#### **Nepieciešamās bilbiotēkas **
   tesserocr (conda install -c simonflueckiger tesserocr)
   langdetect(pip install langdetect)
   csv(ietverts automātiski)
@@ -42,7 +42,7 @@ Anaconda Command Prompt
   pandas (automātiski ietverts)
   itertools (automātiski ietverts)
   
-  **Anaconda vides uzstādīšana :**
+  #### **Anaconda vides uzstādīšana :**
   *https://www.anaconda.com/products/distribution#windows*
   Izmantojot Anaconda tīmekļa vietni lejuplādēt Anaconda Python 3.9 versiju
   Veikt instalāciju pēc sniegtajām norādēm instalācijas failā
@@ -55,11 +55,11 @@ Anaconda Command Prompt
 
   Dažreiz lajuplādējot un uzstādot bibliotēkas tās savstarpēji nesadarbojas un izdzēš viena otru, tad nepieciešams vēlreiz palaist attiecīgās bilbiotēkas lejuplādi un uzstādīšanu
   
-  **Bakalaura darba nodevuma struktūra :** 
+  #### **Bakalaura darba nodevuma struktūra :** 
       Katrs no atsevišķiem posmiem ir sadalīts daļās  - apakšdirektorijās. Piemēram, OCR daļa ir zem OCR direktorijas u.t.t.
       Ir iespējams palaist, apskatīt kodu katram no posmiem atsevišķi, vai darbināt kopējo programmas versiju (v1-3folder.py)
       
-  Kopējas programmas versijas palaišana :
+  #### **Kopējas programmas versijas palaišana** :
       Atverot Anaconda command prompt, nepieciešams pārliecināties vai aktīva iepirekšējos soļos uzstādītā vide
       Pēc vides aktivizēšanas izmantojot cd komandu nepieciešams "aizstaigāt" līdz faila direktorijai
       Izmantojot komandu "Python V1-3folder.py" jāpalaiž programma
