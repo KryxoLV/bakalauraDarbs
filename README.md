@@ -1,11 +1,11 @@
 # Bakalaura darbs - Kristers Rutkis 3ITB
 ## Botānisko vārdnīcu digitalizācija un datu integrācija IMDS sistēmā, izmantojot attēlu apstrādes algoritmus un mašīnmacīšanās algoritmus - Digitization of botanical dictionaries and data integration in IMDS system using image processing algorithms and machine learning algorithms
 
-  Bakalaura darba laikā izstrādātas programmas kods pieejams gan .rar , gan .zip formātos - tādējādi izvairoties no maksimālā atļauto failu skaita limita GitHub vidē.
-    Lai atarhivēt programmas kodu, nepieciešams to lejuplādēt no GitHub repozitorija. Atvērt to ar WinRar vai 7zip piedāvāto risinājumu. Atarhivēt Jums ērtā vietā.  
-    Pēc arhīva izvlikšanas nepieciešams izvilkt arī to saturošo images arhīvu. Ērtības nolūkos to būtu labi atarhivēt iekš Bakalaurs_V1 mapes.  
-    Pēc abu arhīvu atarhivēšanas tos drīkst izdzēst.  
-    Pēc arhīva izdzēšanas nepieciešams iegūto images folderi dublēt arī OCR/KerasOCR , OCR/TesseractOCR un OCR/EasyOCR folderos  
+  Bakalaura darba laikā izstrādātas programmas kods pieejams gan .rar , gan .zip formātos - tādējādi izvairoties no maksimālā atļauto failu skaita limita GitHub vidē.  
+  Lai atarhivēt programmas kodu, nepieciešams to lejuplādēt no GitHub repozitorija. Atvērt to ar WinRar vai 7zip piedāvāto risinājumu. Atarhivēt Jums ērtā vietā.  
+  Pēc arhīva izvlikšanas nepieciešams izvilkt arī to saturošo images arhīvu. Ērtības nolūkos to būtu labi atarhivēt iekš Bakalaurs_V1 mapes.  
+  Pēc abu arhīvu atarhivēšanas tos drīkst izdzēst.  
+  Pēc arhīva izdzēšanas nepieciešams iegūto images folderi dublēt arī OCR/KerasOCR , OCR/TesseractOCR un OCR/EasyOCR folderos  
 
 #### **Izmantotā vide **
 Python
